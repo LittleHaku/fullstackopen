@@ -7,8 +7,8 @@ Repository for the [Full Stack Open course](https://fullstackopen.com/en/) offer
 | Part                                                 | Topic                                                       | Status | My Code                                                                    |
 |------------------------------------------------------|-------------------------------------------------------------|--------|----------------------------------------------------------------------------|
 | [Part 0](https://fullstackopen.com/en/part0)         | Fundamentals of Web apps                                  | ✅     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part0)   |
-| [Part 1](https://fullstackopen.com/en/part1)         | Introduction to React                                     | ✍️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part1)   |
-| [Part 2](https://fullstackopen.com/en/part2)         | Communicating with server                                 | ➡️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part2)   |
+| [Part 1](https://fullstackopen.com/en/part1)         | Introduction to React                                     | ✅     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part1)   |
+| [Part 2](https://fullstackopen.com/en/part2)         | Communicating with server                                 | ✍️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part2)   |
 | [Part 3](https://fullstackopen.com/en/part3)         | Programming a server with NodeJS and Express              | ➡️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part3)   |
 | [Part 4](https://fullstackopen.com/en/part4)         | Testing Express servers, user administration             | ➡️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part4)   |
 | [Part 5](https://fullstackopen.com/en/part5)         | Testing React apps                                        | ➡️     | [View Code](https://github.com/LittleHaku/fullstackopen/tree/main/part5)   |
