@@ -17,22 +17,32 @@ const Button = ({onClick, text}) => (
   </button>
 )
 
+// single statistic
+const StatisticLine = ({text, value}) => (
+  <p>{text} {value}</p>
+)
+
+// statistics groups
 const Statistics = ({good, neutral, bad}) => {
+
+  const average = computeAverage(good, neutral, bad)
+  const percentage = computePercentage(good, neutral, bad)
+
   if (good != 0 || neutral != 0 || bad != 0) {
     return (
-    <div>
-      <h1>statistics</h1>
+      <div>
+        <h1>statistics</h1>
 
-      <p>good {good}</p>
-      <p>neutral {neutral}</p>
-      <p>bad {bad}</p>
+        <StatisticLine text="good" value={good}/>
+        <StatisticLine text="neutral" value={neutral}/>
+        <StatisticLine text="bad" value={bad}/>
 
-      <p>all {good + neutral + bad}</p>
+        <StatisticLine text="all" value={good + neutral + bad}/>
 
-      <p>average {computeAverage(good, neutral, bad)}</p>
+        <StatisticLine text="average" value={average}/>
 
-      <p>positive {computePercentage(good, neutral, bad)}%</p>
-    </div>
+        <StatisticLine text="positive" value={percentage}/>
+      </div>
     )
   }
 }
